@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    min-width: 428px;
+
+    &__title{
+        margin-left: 70px;
+        font-family: 'Monster';
+        color: var(--color-primary);
+    
+        &-secondary{
+            color: var(--color-secondary);
+        }
+    }
+
+    &__icon{
+        margin-right: 30px;
+    }
+}
+

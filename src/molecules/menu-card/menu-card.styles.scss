@@ -1,0 +1,20 @@
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-family: 'Poppins';
+    font-size: 10px;
+    width: 114px;
+    height: 92px;
+    background:var(--card-gradient);
+    border-radius: 8px;
+    box-shadow: 0px 5px 9px #8395A766;
+
+    &__img{
+        margin-bottom: 5px;
+    }
+}

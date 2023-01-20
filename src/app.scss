@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Monster';
+    src: url('./src/utils/fonts/Monster\ Clubhouse.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./utils/fonts/Poppins-Medium.ttf');
+}
+
+:root{
+    --color-primary:#425966;
+    --color-secondary: #D84A4A;
+    --color-white: #fff;
+    --card-gradient:linear-gradient(180deg, #E9F1FA 0%, #FFFFFF 100%);
+    
+
+    margin: 0;
+    padding: 0;
+}
+

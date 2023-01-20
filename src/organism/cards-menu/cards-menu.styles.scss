@@ -1,0 +1,10 @@
+.cards-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  width: 368px;
+  gap: 16px 14px;
+  margin: 0 auto;
+  position: relative;
+  top: -25px;
+}
