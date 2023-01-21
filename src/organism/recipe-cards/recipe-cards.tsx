@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { get } from '../../service/http-service'
 import { RecipeType } from './recipe-types'
 import axios from 'axios'
 import { RecipeCard } from '../../molecules/recipes/recipe-card'
