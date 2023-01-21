@@ -44,9 +44,11 @@
 @media(min-width:768px){
     .banner{
         height: 250px;
+        
 
         &__text{
             top: 30px;
+            left: 15%;
 
             &-title{
                 font-size: 74px;

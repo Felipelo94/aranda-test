@@ -1,7 +1,7 @@
 .recipes{
    display: flex;
    flex-direction: column; 
-   height: 300px;
+   height: 320px;
    
 
     :nth-child(3n){
@@ -43,9 +43,8 @@
         }
 
         &__cards{
-            grid-template-columns: repeat(3, 1fr);
-           
-            overflow-x: scroll;
+            grid-template-columns: repeat(3, 1fr);           
+            
             -ms-overflow-style: none; 
               scrollbar-width: none; 
         
