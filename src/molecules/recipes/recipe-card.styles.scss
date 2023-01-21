@@ -1,4 +1,4 @@
-.recipe-card{
+.recipe-card{    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,9 +8,9 @@
     background: var(--card-gradient);
     border-radius: 10px;
     box-shadow: 0px 5px 9px #8395A766;
-    min-height: 182px;
-    margin-left: 200px;
+    min-height: 182px;    
     position: relative;
+    max-height: 185px;
 
     p{
         font-family: 'Poppins';
@@ -18,6 +18,8 @@
     }
 
     &:hover{
+        max-height: 386px;
+
         .recipe-card__title{
             display: none;
         }
@@ -70,6 +72,13 @@
         font-size: 20px;        
         text-align: center;
         margin-top: 80px;
+        margin-bottom: 55px;
+        color: var(--color-secondary);
+        width: 140px;
+        height: 26px; 
+        white-space: nowrap;
+        overflow: hidden;       
+        text-overflow: ellipsis;
     }
 
     &__servings{

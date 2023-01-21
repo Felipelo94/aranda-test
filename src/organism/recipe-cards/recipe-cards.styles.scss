@@ -1,0 +1,42 @@
+.recipes{
+   display: flex;
+   flex-direction: column;  
+   justify-content: center;
+
+    :nth-child(3n){
+        display: none;
+    }
+    :nth-child(4n){
+        display: none;
+    }
+
+   &__title{
+    margin-bottom: 50px;
+    color: var(--color-secondary);
+    font-family: 'Monster';
+    font-size: 54px;
+    letter-spacing: 5px;
+   }
+
+
+   &__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 25px;
+   }
+
+   
+}
+
+@media(min-width:700px){
+    .recipes{
+        &__cards{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        article:nth-child(3){
+            display: flex;
+        }
+    }
+   }

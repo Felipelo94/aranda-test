@@ -21,7 +21,7 @@ export const RecipeCard = ({ items }: RecipeCardTypes) => {
 
 
   return (
-    <div className="recipe-card">
+    <article className="recipe-card">
       <img
         src={items.image}
         alt="recipe-image-example"
@@ -55,6 +55,6 @@ export const RecipeCard = ({ items }: RecipeCardTypes) => {
       </div>
       </div>
       
-    </div>
+    </article>
   );
 };

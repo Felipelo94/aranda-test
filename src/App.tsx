@@ -13,10 +13,9 @@ function App() {
     <div className="App">
       <Header/>
       <Banner/>
-      <CardsMenu/>
-      <RecipeCard items={DataCard}/> 
-      <Footer/> 
+      <CardsMenu/>      
       <RecipeCards/>    
+      <Footer/> 
     </div>
   )
 }
