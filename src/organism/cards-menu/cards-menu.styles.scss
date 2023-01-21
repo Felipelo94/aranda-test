@@ -8,3 +8,16 @@
   position: relative;
   top: -25px;
 }
+
+@media(min-width:768px){
+  .cards-menu{
+    grid-template-columns: repeat(6, 1fr); 
+    width: 710px;   
+  }
+}
+
+@media(min-width:1280){
+  .cards-menu{
+    display: none;
+  }
+}

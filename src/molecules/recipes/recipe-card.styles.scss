@@ -149,3 +149,20 @@
         }
     }
 }
+
+@media(min-width:768px){
+    .recipe-card{
+        width: 266px;
+        max-height: 270px;
+
+        &__img{
+            width: 164px;
+            height: 158px;
+
+        }
+
+        &__title{
+            margin-top:140px;
+        }
+    }
+}

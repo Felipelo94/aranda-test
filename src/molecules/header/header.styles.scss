@@ -18,7 +18,38 @@
     }
 
     &__icon{
+        display: flex;
+        flex-direction: row;
         margin-right: 30px;
+
+        &-navigation{
+            display: none;
+            align-items: center;
+            flex-direction: row;
+            gap: 45px;
+            list-style: none;
+            margin-right: 20px;
+            font-family: 'Poppins';
+            font-size: 13px;
+
+            :hover{
+                color: var(--color-secondary);
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+    
+}
+
+@media(min-width:1280px){
+    .header__icon-navigation{
+        display: flex;
+    }
+
+    .header__icon-icon{
+        display: none;
     }
 }
 

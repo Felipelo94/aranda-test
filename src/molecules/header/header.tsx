@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.styles.scss';
 import ic_home from '../../assets/icons/ic_home.svg'
+import { menuCardsData } from '../menu-card/menuCardsData';
 
 const Header = () => {
   return (
@@ -8,8 +9,17 @@ const Header = () => {
         <div className='header__title'>
             <h1>Recipe<span className='header__title-secondary'>APP</span></h1>
         </div>
-        <div className='header__icon'>
-            <img src={ic_home} alt="home-icon" />
+        <div className='header__icon'>            
+              <ul className='header__icon-navigation'>
+                <li>Home</li>
+            {menuCardsData.map((item, index)=>{
+              return(
+                  <li>{item.title}</li>
+                  )
+                })}
+                </ul>
+            
+            <img src={ic_home} alt="home-icon" className='header__icon-icon' />
         </div>
     </nav>
   )
