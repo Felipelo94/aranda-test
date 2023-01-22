@@ -1,7 +1,7 @@
 .recipes{
    display: flex;
    flex-direction: column; 
-   height: 320px;
+   height: 400px;
    
 
     article:nth-child(3n){
@@ -46,6 +46,7 @@
 
         &__title{
             margin-bottom: 90px;
+            width: 500px;
         }
 
         &__cards{
