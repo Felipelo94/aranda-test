@@ -14,10 +14,10 @@ const Header = () => {
         </div>
         <div className='header__icon'>            
               <ul className='header__icon-navigation'>
-                <li onClick={()=>setCurrent('')}>Home</li>
+                <li onClick={()=>setCurrent('')}className={current=== ''? 'active' : ''}>Home</li>
             {menuCardsData.map((item, index)=>{
               return(
-                  <li key={index} onClick = {()=>setCurrent(item.title)}>{item.title}</li>
+                  <li key={index} onClick = {()=>setCurrent(item.title)} className={current === item.title ? 'active' : ''}>{item.title}</li>
                   )
                 })}
                 </ul>
