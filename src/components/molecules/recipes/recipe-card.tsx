@@ -6,8 +6,16 @@ import portion from '../../../assets/icons/ic_portion.svg'
 import time from '../../../assets/icons/ic_time.svg'
 import chef from '../../../assets/icons/ic_chef.svg'
 
+export type RecipeCardItems = {
+  id?: number;
+  title: string;
+  servings?: string | number;
+  readyInMinutes?: string | number;
+  image: string
+}
+
 export type RecipeCardTypes = {
-  items: any;
+  items: RecipeCardItems;
 };
 
 export const RecipeCard = ({ items }: RecipeCardTypes) => {

@@ -1,4 +1,6 @@
-export const DataCard: any = 
+import { RecipeCardItems } from "./recipe-card";
+
+export const DataCard: RecipeCardItems = 
   {
     id: 716429,
     title: "Pasta with Garlic",
