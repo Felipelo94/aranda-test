@@ -14,31 +14,37 @@ export const menuCardsData : MenuCardTypes[] =[
     {
         image: vegetarian,
         title: 'Vegetarianos',
-        url:'/'
+        url:'/',
+        onClick :()=>{}
     },
     {
         image: main,
         title: 'Principales',
-        url:'/'
+        url:'/',
+        onClick : ()=>{}
     },
     {
         image: cake,
         title: 'Tortas',
-        url:'/'
+        url:'/',
+        onClick : ()=>{}
     },
     {
         image: fastFood,
         title: 'Rapida',
-        url:'/'
+        url:'/',
+        onClick : ()=>{}
     },
     {
         image: kids,
         title: 'Menú niños',
-        url:'/'
+        url:'/',
+        onClick : ()=>{}
     },
     {
         image: soup,
         title: 'Sopas',
-        url:'/'
+        url:'/',
+        onClick : ()=>{}
     },
 ]
