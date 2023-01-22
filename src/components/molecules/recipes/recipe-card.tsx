@@ -13,7 +13,7 @@ export type RecipeCardTypes = {
 export const RecipeCard = ({ items }: RecipeCardTypes) => {
 
   function randomIntFromInterval(min: number, max:number) {  
-    return Math.floor(Math.random() * (max - min + 1) + min)
+    return Math.floor(Math.random() * (max - min + 1) + min).toFixed(1)
   }
   
   const rndInt = randomIntFromInterval(1, 2)
@@ -42,7 +42,7 @@ export const RecipeCard = ({ items }: RecipeCardTypes) => {
       <div className="recipe-card__difficulty">
         <img src={chef} alt="card-icon-difficulty-icon" />
         <h3 className="recipe-card__difficulty-title">Dificultad</h3>
-        <h3 className="recipe-card__difficulty-level">{rndInt === 1 ? 'fácil' : 'difícil'}</h3>
+        <h3 className="recipe-card__difficulty-level">{rndInt === '1.0' ? 'fácil' : 'difícil'}</h3>
       </div>
       <div className="recipe-card__icons">        
         <div className="recipe-card__icons-star">

@@ -4,10 +4,10 @@
    height: 320px;
    
 
-    :nth-child(3n){
+    article:nth-child(3n){
         display: none;
     }
-    :nth-child(4n){
+    article:nth-child(4n){
         display: none;
     }
 
@@ -35,14 +35,21 @@
 
 @media(min-width:768px){
     .recipes{
+        overflow-x: auto;
         margin-top: 30px;
-        height: 500px;     
+        height: 500px;   
+        
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         &__title{
             margin-bottom: 90px;
         }
 
         &__cards{
+            
             grid-template-columns: repeat(3, 1fr);           
             
             -ms-overflow-style: none; 
@@ -64,6 +71,7 @@
 
 @media(min-width:1280px){
     .recipes{
+        height: 570px;
         &__cards{
             grid-template-columns: repeat(4, 1fr);
         }
