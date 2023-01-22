@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.styles.scss'
-import products from '../../assets/footer.png'
+import products from '../../../assets/footer.png'
 
 export const Footer = () => {
   return (

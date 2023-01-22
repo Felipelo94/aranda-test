@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { RecipeType } from './recipe-types'
 import axios from 'axios'
 import { RecipeCard } from '../../molecules/recipes/recipe-card'

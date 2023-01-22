@@ -1,6 +1,5 @@
-import React from 'react';
 import './header.styles.scss';
-import ic_home from '../../assets/icons/ic_home.svg'
+import ic_home from '../../../assets/icons/ic_home.svg'
 import { menuCardsData } from '../menu-card/menuCardsData';
 
 const Header = () => {
@@ -14,7 +13,7 @@ const Header = () => {
                 <li>Home</li>
             {menuCardsData.map((item, index)=>{
               return(
-                  <li>{item.title}</li>
+                  <li key={index}>{item.title}</li>
                   )
                 })}
                 </ul>

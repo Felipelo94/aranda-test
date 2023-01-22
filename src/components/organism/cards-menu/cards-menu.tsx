@@ -6,8 +6,7 @@ import './cards-menu.styles.scss'
 export const CardsMenu = () => {
   return (
     <div className="cards-menu">
-      {menuCardsData.map((items: any, index: any) => {
-        {console.log(items)}
+      {menuCardsData.map((items: any, index: any) => {        
         return (
           <MenuCard title={items.title} url={items.url} image={items.image}  key={index}/>
         );

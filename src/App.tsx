@@ -1,11 +1,9 @@
-import Header from "./molecules/header/header"
 import './app.scss'
-import Banner from "./molecules/banner/banner"
-import { CardsMenu } from "./organism/cards-menu/cards-menu"
-import { RecipeCard } from "./molecules/recipes/recipe-card"
-import { DataCard } from "./molecules/recipes/Data"
-import { Footer } from "./molecules/footer/footer"
-import { RecipeCards } from "./organism/recipe-cards/recipe-cards"
+import Banner from './components/molecules/banner/banner'
+import { Footer } from './components/molecules/footer/footer'
+import Header from './components/molecules/header/header'
+import { CardsMenu } from './components/organism/cards-menu/cards-menu'
+import { RecipeCards } from './components/organism/recipe-cards/recipe-cards'
 
 function App() {
 

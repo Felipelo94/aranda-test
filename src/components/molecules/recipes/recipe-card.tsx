@@ -1,10 +1,10 @@
 import React from "react";
 import "./recipe-card.styles.scss";
-import heart from '../../assets/icons/ic-favorite.svg';
-import star from '../../assets/icons/ic_star.svg'
-import portion from '../../assets/icons/ic_portion.svg'
-import time from '../../assets/icons/ic_time.svg'
-import chef from '../../assets/icons/ic_chef.svg'
+import heart from '../../../assets/icons/ic-favorite.svg';
+import star from '../../../assets/icons/ic_star.svg'
+import portion from '../../../assets/icons/ic_portion.svg'
+import time from '../../../assets/icons/ic_time.svg'
+import chef from '../../../assets/icons/ic_chef.svg'
 
 export type RecipeCardTypes = {
   items: any;
